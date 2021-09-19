@@ -85,8 +85,8 @@
     24: 0 11px 15px 0 $ambient-shadow-colour
   );
   
-  // If you don't want all the classes can also just include this mixin and provide an elevation value in any class
-  @mixin elevation ($elevation) {
+  
+  @mixin shadow ($elevation) {
     box-shadow: map-get($key-shadow-umbra-map, $elevation),
       map-get($key-shadow-penumbra-map, $elevation),
       map-get($ambient-shadow-map, $elevation);
