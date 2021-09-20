@@ -124,7 +124,7 @@ $ambient-shadow-map: (
   24: 0 11px 15px 0 $ambient-shadow-colour
 );
 
-@mixin shadow ($elevation) {
+@mixin shadow($elevation) {
   box-shadow: map-get($key-shadow-umbra-map, $elevation),
     map-get($key-shadow-penumbra-map, $elevation),
     map-get($ambient-shadow-map, $elevation);
